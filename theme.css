@@ -5,6 +5,7 @@
   --white: #ffffff;
   --blue: #3366ff;
   --gray: #d8d8d8;
+  --peach: #f2bfaf;
   --background: #f8f9ff;
 
   --green-hover: #007a64;
@@ -23,7 +24,7 @@
   padding: 16px 20px;
   gap: 8px;
   border: 1px solid transparent;
-  min-width: 200px;
+  max-width: 200px;
   height: 60px;
   display: inline-flex;
   align-items: center;
@@ -65,4 +66,8 @@
 
 .text-blue {
   color: var(--blue);
+}
+
+.text-green {
+  color: var(--green);
 }

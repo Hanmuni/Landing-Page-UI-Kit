@@ -3,18 +3,23 @@ body {
   margin: 0;
   background-color: var(--background);
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .container {
   max-width: 1280px;
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
-
 }
 
 .row {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .column {
