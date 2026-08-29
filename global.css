@@ -27,3 +27,21 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.text-center {
+  text-align: center;
+  align-items: center;
+}
+
+.text-left {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.text-center .btn {
+  align-self: center;
+}
+
+.text-left .btn {
+  align-self: flex-start;
+}
