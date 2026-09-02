@@ -256,3 +256,113 @@ header {
   width: 32px !important;
   height: 32px !important;
 }
+
+.promo {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.promo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--peach);
+  border-radius: 16px;
+}
+
+.promo-header {
+  margin-left: 64px;
+}
+
+.promo-header .btn {
+  width: 100%;
+}
+
+.contact {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding: 32px;
+  background-color: var(--white);
+  border: 1px solid var(--light-green);
+  border-radius: 16px;
+}
+
+.contact .section-header {
+  align-items: start;
+  text-align: start;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.contact-content p {
+  display: flex;
+}
+
+.contact-content a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.contact-icons {
+  margin-top: 64px;
+}
+
+.contact-icons a {
+  margin-right: 16px;
+}
+
+.contact-form {
+  margin-right: 64px;
+  margin-left: 132px;
+}
+
+.contact-form .btn {
+  width: 160px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.form-field {
+  position: relative;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.form-field .input-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.form-field input {
+  width: 465px;
+  border: 1px solid var(--gray);
+  border-radius: 16px;
+  padding: 16px 16px 16px 56px;
+  color: var(--primary);
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer-logos a {
+  margin-right: 8px;
+}

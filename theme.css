@@ -34,6 +34,7 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  scroll-behavior: smooth;
 }
 
 .btn-green {
