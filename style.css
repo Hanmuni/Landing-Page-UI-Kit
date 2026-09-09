@@ -41,6 +41,7 @@ header {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
+  max-width: 420px;
 }
 
 .hero-content p {
@@ -171,6 +172,8 @@ header {
 .section-box-border-bottom {
   max-width: 270px;
   height: 170px;
+  padding: 16px;
+  box-sizing: border-box;
   border-bottom: 4px solid var(--peach);
   background-color: var(--white);
   border-top-left-radius: 16px;
@@ -246,6 +249,7 @@ header {
 
 .team-member-name {
   margin-bottom: 16px;
+  padding: 0 16px;
 }
 
 .team-member-contact {
@@ -255,6 +259,11 @@ header {
   align-items: center;
   justify-content: center;
   border-top: 1px solid var(--gray);
+}
+
+.team-member-contact a {
+  text-decoration: none;
+  line-height: 0;
 }
 
 .contact-icon {
@@ -320,6 +329,8 @@ header {
 
 .contact-icons a {
   margin-right: 16px;
+  text-decoration: none;
+  line-height: 0;
 }
 
 .contact-form {
@@ -370,6 +381,8 @@ footer {
 
 .footer-logos a {
   margin-right: 8px;
+  text-decoration: none;
+  line-height: 0;
 }
 
 /* Mobile */
@@ -394,6 +407,9 @@ footer {
 
   .hero-content h2 {
     font-size: 36px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-btns {
@@ -525,7 +541,10 @@ footer {
   }
 
   .hero-content h2 {
-    font-size: 64px;
+    font-size: 48px;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-content {
