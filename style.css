@@ -229,7 +229,7 @@ header {
 }
 
 .team .section-box {
-  padding: 0 !important;
+  padding: 0;
 }
 
 .member-photo {
@@ -259,8 +259,8 @@ header {
 }
 
 .contact-icon {
-  width: 32px !important;
-  height: 32px !important;
+  width: 32px;
+  height: 32px;
 }
 
 .promo {
