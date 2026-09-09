@@ -99,7 +99,6 @@ header {
   width: 100%;
   max-width: 370px;
   padding: 30px;
-  box-sizing: border-box;
   cursor: pointer;
   transition:
     background-color 0.2s ease,
@@ -150,12 +149,6 @@ header {
   border-radius: 16px;
 }
 
-.card-green {
-  background-color: var(--green);
-  color: var(--white);
-  border-radius: 16px;
-}
-
 .learn-more {
   display: flex;
   gap: 8px;
@@ -173,7 +166,6 @@ header {
   max-width: 270px;
   height: 170px;
   padding: 16px;
-  box-sizing: border-box;
   border-bottom: 4px solid var(--peach);
   background-color: var(--white);
   border-top-left-radius: 16px;
@@ -364,7 +356,6 @@ header {
   border-radius: 16px;
   padding: 16px 16px 16px 56px;
   color: var(--primary);
-  box-sizing: border-box;
 }
 
 footer {
@@ -401,7 +392,6 @@ footer {
   }
 
   .hero-content {
-    align-items: center;
     text-align: center;
   }
 
@@ -527,10 +517,6 @@ footer {
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1279px) {
-  .nav-list {
-    display: flex;
-  }
-
   .nav-item:nth-child(1),
   .nav-item:nth-child(3) {
     display: none;
@@ -548,7 +534,6 @@ footer {
   }
 
   .hero-content {
-    align-items: center;
     text-align: center;
   }
 

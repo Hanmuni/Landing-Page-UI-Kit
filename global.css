@@ -3,11 +3,18 @@ body {
   margin: 0;
   background-color: var(--background);
 }
+
 html,
 body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .container {
@@ -37,10 +44,6 @@ body {
 .text-left {
   text-align: left;
   align-items: flex-start;
-}
-
-.text-center .btn {
-  align-self: center;
 }
 
 .text-left .btn {

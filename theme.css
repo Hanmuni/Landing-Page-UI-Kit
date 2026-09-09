@@ -13,12 +13,6 @@
   --white-hover: #f0f0f0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .btn {
   border-radius: 20px;
   padding: 16px 20px;
@@ -34,7 +28,6 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-  scroll-behavior: smooth;
 }
 
 .btn-green {
